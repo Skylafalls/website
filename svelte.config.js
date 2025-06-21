@@ -13,7 +13,7 @@ const config = {
 			fallback: "+error.svelte",
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+			base: "/website"
 		},
 		prerender: {
 			handleHttpError() {

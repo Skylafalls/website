@@ -26,8 +26,6 @@ jobs:
       - name: Install and build
         run: deno install
       - name: Build
-        env:
-          BASE_PATH: /$(( github.event.repository.name ))
         run: deno task build
       - name: Install rsync because the stupid deploy step needs it
         run: |
