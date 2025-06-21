@@ -10,6 +10,7 @@ const config = {
 	kit: {
 		adapter: adapter({
 			pages: "dist",
+			fallback: "+error.svelte",
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
