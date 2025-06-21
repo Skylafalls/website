@@ -1,0 +1,79 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.0.0-beta.6/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "ignoreUnknown": false
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 100
+  },
+  "linter": {
+    "enabled": true,
+    "domains": {
+      "project": "all"
+    },
+    "rules": {
+      "recommended": true,
+      "complexity": "error",
+      "correctness": "error",
+      "security": "error",
+      "suspicious": "error",
+      "style": {
+        "noInferrableTypes": "error",
+        "noNamespace": "error",
+        "noNestedTernary": "error",
+        "noParameterAssign": "error",
+        "noSubstr": "error",
+        "noUnusedTemplateLiteral": "info",
+        "noUselessElse": "error",
+        "noYodaExpression": "error",
+        "useAsConstAssertion": "error",
+        "useCollapsedIf": "error",
+        "useCollapsedElseIf": "error",
+        "useConsistentBuiltinInstantiation": "error",
+        "useConst": "error",
+        "useDefaultParameterLast": "error",
+        "useEnumInitializers": "warn",
+        "useExponentiationOperator": "off",
+        "useForOf": "error",
+        "useNodejsImportProtocol": "error",
+        "useNumberNamespace": "error",
+        "useShorthandAssign": "warn",
+        "useThrowOnlyError": "error",
+        "useThrowNewError": "error"
+      },
+      "nursery": {
+        "noConstantBinaryExpression": "error",
+        "noFloatingPromises": "error",
+        "noImportCycles": "error",
+        "noShadow": "warn",
+        "noUselessUndefined": "error",
+        "noUselessEscapeInString": "error",
+        "useAdjacentGetterSetter": "error",
+        "useConsistentObjectDefinition": "error",
+        "noUnresolvedImports": "off"
+      }
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double",
+      "semicolons": "always"
+    }
+  },
+  "assist": {
+    "enabled": true,
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  }
+}
