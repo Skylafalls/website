@@ -33,7 +33,7 @@ jobs:
       - name: Install Deno
         uses: denoland/setup-deno@v2
         with:
-          deno-version: v2.x
+          deno-version: 2.3.6
       - name: Install dependencies
         run: deno install
       - name: Build
