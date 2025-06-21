@@ -1,8 +1,3 @@
-<script lang="ts">
-  import NavigationBar from "../components/NavigationBar.svelte";
-</script>
-
-<NavigationBar />
 <h1>Hello, World!</h1>
 <p>This is
   <a href="https://youtube.com/@boredthien" aria-label="Link to YT Channel">

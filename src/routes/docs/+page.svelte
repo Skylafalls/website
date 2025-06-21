@@ -1,10 +1,8 @@
 <script lang="ts">
   import DocumentListItem from "../../components/DocumentListItem.svelte";
-  import NavigationBar from "../../components/NavigationBar.svelte";
   import { documents } from "../../db/docs";
 
 </script>
-<NavigationBar />
 <h1>Documents</h1>
 <p>This page contains a list of the documents that I currently own so far.</p>
 <ol>
