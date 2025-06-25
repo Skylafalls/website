@@ -38,5 +38,17 @@ export const documents: DocumentItem[] = [
       everything in Fictional Googology, from concepts to difficulties to debates.`,
       "Currently it's a WIP with many concepts missing. Please suggest things if you can."
     ],
-  }
+  },
+  {
+    id: "bbn-additional",
+    docHeading: "BBN: Additional Expansion Charts",
+    documentLink: "https://docs.google.com/spreadsheets/d/1o48spBes-bJzfCb12mUf_ID1Sar4N3Uk2Q5kC3aOBKU/edit",
+    arrayOfInfo: [
+      `The Additional FG Expansion Charts spreadsheet contains more miscellaneous information like the
+      Breakology charts and AE and layer aspects.`,
+      `This also contains the list of other documents made by other people,
+      and more weird things like Ontopolitical spectrums.`,
+      "I would love it if you guys help me with the styling since it's pretty ugly right now."
+    ],
+  },
 ]

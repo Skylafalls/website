@@ -16,9 +16,7 @@ const config = {
 			base: "/website"
 		},
 		prerender: {
-			handleHttpError() {
-				return ;
-			}
+			handleHttpError: "warn"
 		}
 	}
 };
