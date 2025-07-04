@@ -8,7 +8,7 @@ interface DocumentItem {
 export const documents: DocumentItem[] = [
   {
     id: "bbn-is",
-    docHeading: "BBN: Informal Spreadsheet",
+    docHeading: "BBN: Informal Spreadsheet (v2)",
     documentLink: "https://docs.google.com/spreadsheets/d/1yHnEMApkMOXJkoFMpRv2Xl4xqyUnrHUdAox9YmhJAa4/edit",
     arrayOfInfo: [
       "This is the informal FG spreadsheet, created after the split from the existing \"FG Expansion Spreadsheet\".",
@@ -19,7 +19,7 @@ export const documents: DocumentItem[] = [
   },
   {
     id: "bbn-rs",
-    docHeading: "BBN: Rigorous Spreadsheet",
+    docHeading: "BBN: Rigorous Spreadsheet (v2)",
     documentLink: "https://docs.google.com/spreadsheets/d/1IBfGy1qQ5qslxNbu4mZB0QDjzou704WmIAx45vJa-UY/edit",
     arrayOfInfo: [
       `This is the rigorous FG spreadsheet which was originally under the name of the "FG Expansion Spreadsheet",
@@ -49,6 +49,18 @@ export const documents: DocumentItem[] = [
       `This also contains the list of other documents made by other people,
       and more weird things like Ontopolitical spectrums.`,
       "I would love it if you guys help me with the styling since it's pretty ugly right now."
+    ],
+  },
+  {
+    id: "bbn-fgexp",
+    docHeading: "BBN: FG Expansion Spreadsheet (v3)",
+    documentLink: "https://docs.google.com/spreadsheets/d/1iYp6VyEhT5JeENpVRjqs7BT9yJd0l-8kHFX_ct7BZMI/edit",
+    arrayOfInfo: [
+      `The third revision of the FG Expansion Spreadsheet is a rethought version of the original v1 and v2 variants
+      of the spreadsheets taking a, hopefuly better approach.`,
+      `This aims to combine rigorous + informal scaling in a way that doesn't cause trouble, and also combines
+      many of the aspects from the Additioal FG Expansion Charts spreadsheet.`,
+      `Currently, it's very WIP and has just started as of July 4th, 2025. I need your help with this.`
     ],
   },
 ]
