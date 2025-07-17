@@ -2,7 +2,7 @@
   <div>
     <Title>Thien's Website</Title>
     <header>
-      <NuxtLink href="home">Home</NuxtLink> |
+      <NuxtLink href="/">Home</NuxtLink> |
       <NuxtLink href="docs">Documents</NuxtLink> |
       <NuxtLink href="about">About Me</NuxtLink> |
       <NuxtLink href="bbn">About BBN</NuxtLink> |
