@@ -18,15 +18,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Deno
-        uses: denoland/setup-deno@v2
+      - name: Install Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          deno-version: 2.3.6
+          bun-version: 1.2.18
         
-      - name: Install and build
-        run: deno install
+      - name: Install dependenices
+        run: bun install --frozen-lockfile
       - name: Build
-        run: deno task build
+        run: bun run generate
       - name: Install rsync because the stupid deploy step needs it
         run: |
           sudo apt-get update && sudo apt-get install -y rsync
