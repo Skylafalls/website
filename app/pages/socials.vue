@@ -7,7 +7,7 @@
         <a href="https://www.youtube.com/@boredthien" target="_blank">YouTube</a> (@boredthien)
       </li>
       <li>
-        <a href="">Discord</a> (@thienum, <span style="color: red;">temporarily suspended</span>)
+        <a href="">Discord</a> (@thienum)
       </li>
       <li>
         <a href="https://fictional-googology.fandom.com/wiki/User:Bored_Thien" target="_blank">Fandom</a> (@Bored Thien)
