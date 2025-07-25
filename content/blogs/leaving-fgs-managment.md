@@ -12,6 +12,6 @@ I also do not like how I'm constantly being ridiculed for what?? I hate when peo
 
 What does this mean for the projects I'm working on, and the places I'm at? Realistically, shouldn't mean anything. For the Discord servers I'm in, I would only be within the [FG Fanclub](https://discord.gg/9PGMnJfheJ) server now, although I'll still talk in some others like Jesse Kohn's and JoshuaDR.0809's server.
 
-I will also maybe check up on the spreadsheets sometimes. Overall, I don't want to babysit insane people, and from what I have seen, you guys want to be insane.
+Yeah, overall, I don't want to babysit insane people, and from what I have seen, you guys want to be insane.
 
 Get your shit together people, I am tired of trying to fix what is obviously fixable, but that you guys keep breaking.
