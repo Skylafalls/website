@@ -20,7 +20,8 @@ const { data: posts } = await useAsyncData(() => {
         <strong>{{ post.title }}</strong>
       </NuxtLink>
       <br>
-      => {{ post.description }}
+      => {{ post.description }}<br>
+      => Written {{ post.date }}
     </p>
   </div>
 </template>

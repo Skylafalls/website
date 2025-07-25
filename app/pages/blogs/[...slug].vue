@@ -19,6 +19,7 @@ useSeoMeta({
       <small>« Back </small>
     </NuxtLink>
     <h1>{{ post.title }}</h1>
+    <small>Written up on {{ post.date }}.</small>
     <ContentRenderer :value="post" />
   </div>
   <div v-else>
