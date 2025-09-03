@@ -21,15 +21,12 @@ jobs:
       - name: Install Bun
         uses: oven-sh/setup-bun@v2
         with:
-          bun-version: 1.2.18
+          bun-version: 1.2.21
         
       - name: Install dependenices
         run: bun install --frozen-lockfile
       - name: Build
         run: bun run generate
-      - name: Install rsync because the stupid deploy step needs it
-        run: |
-          sudo apt-get update && sudo apt-get install -y rsync
       - name: Deploy hopefully
         uses: JamesIves/github-pages-deploy-action@v4
         with:
