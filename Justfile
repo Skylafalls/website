@@ -11,3 +11,4 @@ push message: test-build
   @echo 'Committing...'
   @git commit -m "{{ message }}"
   @echo 'Pushing...'
+  @git push
