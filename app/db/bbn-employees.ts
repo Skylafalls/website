@@ -3,11 +3,9 @@ export const bbnEmployees = [
   "Zerena",
   "NewFall",
   "Stella",
-  "Alexandre Vachon",
-  "BlasterTNT",
+  "Blast100",
   "Catnovem",
   "IQF",
-  "Freddie Fazbear",
   "Math Goblin",
   "NilGaming",
   "Sami9999999999",
@@ -23,5 +21,17 @@ export const bbnEmployees = [
   "TneEnchantedPokemon",
   "Psifinity",
   "SuperWindows78",
-  "Outspace Gigane"
+  "Outspace Gigane",
+  "CurliestJohn",
+  "Oscar Wood",
+  'Pixelium',
+  "Aperdinal",
+  "TCC25",
+].sort();
+
+export const councilMembers = [
+  "Math Goblin",
+  "Gamma Mu D Mu",
+  "Bored Thien",
+  "Zerena"
 ].sort();

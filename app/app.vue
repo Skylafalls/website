@@ -7,3 +7,9 @@
     <NuxtPage />
   </div>
 </template>
+
+<style>
+* {
+  font-family: Lexend;
+}
+</style>

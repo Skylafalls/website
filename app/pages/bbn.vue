@@ -2,7 +2,7 @@
   <div>
     <h1>About the foundation...</h1>
     <p>
-      <b>The BBN Foundation</b> is a little team of people who specializes in Fictional Googology.
+      <b>The BBN Foundation</b> is an organization of people who specializes in Fictional Googology.
       <br>
       Here's the current list of members:
     </p>

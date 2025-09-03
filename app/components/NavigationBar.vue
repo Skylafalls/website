@@ -1,9 +1,16 @@
 <script setup lang="ts">
 const { data: blogPosts } = await useAsyncData(() => {
   return queryCollection('content')
-    .select('title', 'description', 'path', 'id', 'date')
+    .select('title', 'path', 'id', 'date')
     .order('date', 'DESC')
     .all()
+})
+
+const { data: changelogPosts } = await useAsyncData(() => {
+  return queryCollection("changelogs")
+    .select("title", "id", "path", "date")
+    .order("date", "DESC")
+    .all();
 })
 </script>
 
@@ -21,6 +28,17 @@ const { data: blogPosts } = await useAsyncData(() => {
       </NuxtLink>
       <div class="dropdown-content">
         <NuxtLink v-for="post in blogPosts" :key="post.id" :href="post.path">
+          {{ post.title }}
+        </NuxtLink>
+      </div>
+    </div>
+    <div class="dropdown">
+      <NuxtLink href="/changelog" class="dropbtn" style="display: block;">
+        Changelog
+        <i class="fa fa-caret-down" />
+      </NuxtLink>
+      <div class="dropdown-content">
+        <NuxtLink v-for="post in changelogPosts" :key="post.id" :href="post.path">
           {{ post.title }}
         </NuxtLink>
       </div>

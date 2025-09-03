@@ -11,5 +11,14 @@ export default defineContentConfig({
         description: z.string(),
       }),
     }),
+    changelogs: defineCollection({
+      type: "page",
+      source: "changelog/**/*.md",
+      schema: z.strictObject({
+        date: z.string(),
+        title: z.string(),
+        version: z.string().regex(/^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$/mu),
+      }),
+    }),
   },
 })

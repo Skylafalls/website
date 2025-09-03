@@ -11,7 +11,7 @@ export const documents: DocumentItem[] = [
     docHeading: "BBN: Informal Spreadsheet (v1)",
     documentLink: "https://docs.google.com/spreadsheets/d/1yHnEMApkMOXJkoFMpRv2Xl4xqyUnrHUdAox9YmhJAa4/edit",
     arrayOfInfo: [
-      "This is the informal FG spreadsheet, created after the split from the existing \"FG Expansion Spreadsheet\".",
+      "This is the informal FG spreadsheet, created after the split from the original \"FG Expansion Spreadsheet\".",
       `The BBN-IS is used to objectively scale and rank many informal FG numbers such as Low-Endic Eternity
       and The Creator of all Fictional Googology Numbers.`,
       `For ranking rigorous numbers, see the BBN-RS.`
@@ -48,7 +48,8 @@ export const documents: DocumentItem[] = [
       Breakology charts and AE and layer aspects.`,
       `This also contains the list of other documents made by other people,
       and more weird things like Ontopolitical spectrums.`,
-      "I would love it if you guys help me with the styling since it's pretty ugly right now."
+      "I would love it if you guys help me with the styling since it's pretty ugly right now.",
+      "It is also mostly abandoned, as we eventually plan to merge this into the new FG Expansion Spreadsheet."
     ],
   },
   {
@@ -59,8 +60,8 @@ export const documents: DocumentItem[] = [
       `The third revision of the FG Expansion Spreadsheet is a rethought version of the original v1 and v2 variants
       of the spreadsheets taking a, hopefuly better approach.`,
       `This aims to combine rigorous + informal scaling in a way that doesn't cause trouble, and also combines
-      many of the aspects from the Additioal FG Expansion Charts spreadsheet.`,
-      `Currently, it's very WIP and has just started as of July 4th, 2025. I need your help with this.`
+      many of the aspects from the Additioal FG Expansion Charts and the Common FG Specification.`,
+      `Currently, it's in beta status (as of September 3rd, 2025) and needs more charts to be ported over.`
     ],
   },
 ];

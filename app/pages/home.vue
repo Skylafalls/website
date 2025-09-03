@@ -5,7 +5,7 @@
       <a href="https://youtube.com/@boredthien" target="_blank">
         Thien's
       </a>
-      website, built with zero
+      website, built with very little
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
         CSS
       </a>

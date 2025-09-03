@@ -13,4 +13,14 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/content'
   ],
+  fonts: {
+    families: [
+      { name: 'Lexend' },
+    ],
+  },
+  vite: {
+    experimental: {
+      enableNativePlugin: true,
+    },
+  },
 })

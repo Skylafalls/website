@@ -10,7 +10,7 @@
         <a href="">Discord</a> (@thienum)
       </li>
       <li>
-        <a href="https://fictional-googology.fandom.com/wiki/User:Bored_Thien" target="_blank">Fandom</a> (@Bored Thien)
+        <a href="https://fgyt.fandom.com/wiki/User:Bored_Thien" target="_blank">Fandom</a> (@Bored Thien)
       </li>
       <li>
         <a href="https://twitter.com/thienbeingbored" target="_blank">Twitter / <i>""X""</i></a> (@thienbeingbored, <span style="color: darkgray;">inactive</span>)
