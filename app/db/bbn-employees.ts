@@ -24,7 +24,7 @@ export const bbnEmployees = [
   "Outspace Gigane",
   "CurliestJohn",
   "Oscar Wood",
-  'Pixelium',
+  "Pixelium",
   "Aperdinal",
   "TCC25",
 ].sort();
@@ -33,5 +33,5 @@ export const councilMembers = [
   "Math Goblin",
   "Gamma Mu D Mu",
   "Bored Thien",
-  "Zerena"
+  "Zerena",
 ].sort();

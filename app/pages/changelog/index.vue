@@ -1,10 +1,8 @@
 <script lang="ts" setup>
-const { data: posts } = await useAsyncData(() => {
-  return queryCollection('changelogs')
-    .select('title', 'path', 'id', 'date', 'version')
-    .order('date', 'DESC')
-    .all()
-})
+const { data: posts } = await useAsyncData(() => queryCollection("changelogs")
+  .select("title", "path", "id", "date", "version")
+  .order("date", "DESC")
+  .all());
 </script>
 
 <template>

@@ -13,5 +13,5 @@
 </template>
 
 <script lang="ts" setup>
-import { bbnEmployees } from '~/db/bbn-employees';
+import { bbnEmployees } from "~/db/bbn-employees";
 </script>

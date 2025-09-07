@@ -9,7 +9,7 @@
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
         CSS
       </a>
-      (as I found it way too annoying) and for some reason 
+      (as I found it way too annoying) and for some reason
       <a href="https://nuxt.com" target="_blank">
         Nuxt.js.
       </a>

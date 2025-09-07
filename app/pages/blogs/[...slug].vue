@@ -1,11 +1,9 @@
 <script lang="ts" setup>
-const route = useRoute()
-const pageId = computed(() => 'blog-' + route.path)
-const { data: post } = await useAsyncData(pageId, () => {
-  return queryCollection('content')
-    .path(route.path)
-    .first()
-})
+const route = useRoute();
+const pageId = computed(() => "blog-" + route.path);
+const { data: post } = await useAsyncData(pageId, () => queryCollection("content")
+  .path(route.path)
+  .first());
 
 useSeoMeta({
   title: post.value?.title,

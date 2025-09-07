@@ -1,8 +1,8 @@
 interface DocumentItem {
-  docHeading: string
-  documentLink: string
-  arrayOfInfo: Array<string>
-  id: string
+  docHeading: string;
+  documentLink: string;
+  arrayOfInfo: Array<string>;
+  id: string;
 }
 
 export const documents: DocumentItem[] = [
@@ -14,7 +14,7 @@ export const documents: DocumentItem[] = [
       "This is the informal FG spreadsheet, created after the split from the original \"FG Expansion Spreadsheet\".",
       `The BBN-IS is used to objectively scale and rank many informal FG numbers such as Low-Endic Eternity
       and The Creator of all Fictional Googology Numbers.`,
-      `For ranking rigorous numbers, see the BBN-RS.`
+      `For ranking rigorous numbers, see the BBN-RS.`,
     ],
   },
   {
@@ -26,7 +26,7 @@ export const documents: DocumentItem[] = [
       but got changed after the split between rigorous & informal fields of Fictional Googology.`,
       `The BBN-RS is used to objectively scale and rank many rigorous and formal FG numbers based on the
       Pata-Metagoogology's abmetricism system called The Final Stretch.`,
-      `For ranking rigorous numbers, see the BBN-IS.`
+      `For ranking rigorous numbers, see the BBN-IS.`,
     ],
   },
   {
@@ -36,7 +36,7 @@ export const documents: DocumentItem[] = [
     arrayOfInfo: [
       `This is the Common FG Specification, a dual google sheet/doc combo that aims to standardize
       everything in Fictional Googology, from concepts to difficulties to debates.`,
-      "Currently it's a WIP with many concepts missing. Please suggest things if you can."
+      "Currently it's a WIP with many concepts missing. Please suggest things if you can.",
     ],
   },
   {
@@ -49,7 +49,7 @@ export const documents: DocumentItem[] = [
       `This also contains the list of other documents made by other people,
       and more weird things like Ontopolitical spectrums.`,
       "I would love it if you guys help me with the styling since it's pretty ugly right now.",
-      "It is also mostly abandoned, as we eventually plan to merge this into the new FG Expansion Spreadsheet."
+      "It is also mostly abandoned, as we eventually plan to merge this into the new FG Expansion Spreadsheet.",
     ],
   },
   {
@@ -61,7 +61,7 @@ export const documents: DocumentItem[] = [
       of the spreadsheets taking a, hopefuly better approach.`,
       `This aims to combine rigorous + informal scaling in a way that doesn't cause trouble, and also combines
       many of the aspects from the Additioal FG Expansion Charts and the Common FG Specification.`,
-      `Currently, it's in beta status (as of September 3rd, 2025) and needs more charts to be ported over.`
+      `Currently, it's in beta status (as of September 3rd, 2025) and needs more charts to be ported over.`,
     ],
   },
 ];

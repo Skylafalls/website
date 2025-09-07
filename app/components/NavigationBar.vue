@@ -1,17 +1,13 @@
 <script setup lang="ts">
-const { data: blogPosts } = await useAsyncData(() => {
-  return queryCollection('content')
-    .select('title', 'path', 'id', 'date')
-    .order('date', 'DESC')
-    .all()
-})
+const { data: blogPosts } = await useAsyncData(() => queryCollection("content")
+  .select("title", "path", "id", "date")
+  .order("date", "DESC")
+  .all());
 
-const { data: changelogPosts } = await useAsyncData(() => {
-  return queryCollection("changelogs")
-    .select("title", "id", "path", "date")
-    .order("date", "DESC")
-    .all();
-})
+const { data: changelogPosts } = await useAsyncData(() => queryCollection("changelogs")
+  .select("title", "id", "path", "date")
+  .order("date", "DESC")
+  .all());
 </script>
 
 <template>
@@ -70,7 +66,7 @@ const { data: changelogPosts } = await useAsyncData(() => {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;

@@ -20,5 +20,5 @@
 </template>
 
 <script lang="ts" setup>
-import { documents } from '~/db/docs';
+import { documents } from "~/db/docs";
 </script>

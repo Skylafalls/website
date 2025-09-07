@@ -1,18 +1,15 @@
 <script lang="ts" setup>
-const route = useRoute()
-const pageId = computed(() => 'changelog-' + route.path)
-const { data: post } = await useAsyncData(pageId, () => {
-  return queryCollection('changelogs')
-    .path(route.path)
-    .first()
-})
+const route = useRoute();
+const pageId = computed(() => "changelog-" + route.path);
+const { data: post } = await useAsyncData(pageId, () => queryCollection("changelogs")
+  .path(route.path)
+  .first());
 
 const fullTitle = computed(() => {
   if (post.value?.title && post.value?.version) {
     return `${post.value.title} - v${post.value.version}`;
-  } else {
-    return "";
   }
+  return "";
 });
 
 useSeoMeta({

@@ -3,7 +3,7 @@ const error = useError();
 
 const handleError = () => {
   clearError({
-    redirect: '/',
+    redirect: "/",
   });
 };
 </script>
