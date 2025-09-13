@@ -3,15 +3,16 @@ title: "FG Expansion Spreadsheet"
 version: "2.0.0-beta.3"
 date: "September 13th, 2025"
 ---
-This update expands on the Standard Breakology Index like usual, actually shortening the _short_ SBI charts and various other improvements.
+This update expands on the Standard Breakology Index like usual, actually shortening the _short_ SBI charts and various other improvements such as adding The Eternal Tera Path as a valid path.
 
-This update also re-enables commenting for non-editors.
+This update also re-enables commenting for non-editors, and adds two new editors.
 
 ## ⚠️ BREAKING CHANGES:
 * feat(meta)!: Re-enabled commenting for non-editors
 
 ## ✨ Notable Changes:
 * chore(charts): Deprecated rigorous scaling charts
+* feat(meta): Added StrongLeon and O as a collaborator of the spreadsheet
 
 ## 🚀 Features:
 * feat(sections): Added BBN Level 18 under Celestialology
