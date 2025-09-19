@@ -1,7 +1,7 @@
 ---
 title: "Before school starts..."
 description: "Some small updates, and where I'm at currently."
-date: "September 3rd, 2025"
+date: "2025-09-03"
 ---
 
 So, I'm back in FG again. I guess a 3 day break was enough for me, interesting.

@@ -1,7 +1,7 @@
 ---
 title: "No more babysitting."
 description: "I'm going to \"quit\" FG, as in I'm no longer going to manage all the internal bullshit that goes on."
-date: "July 25th, 2025"
+date: "2025-07-25"
 ---
 
 I'm gonna stop trying to manage the bullshit that has continually spiraled across the past few months I have been in this community.

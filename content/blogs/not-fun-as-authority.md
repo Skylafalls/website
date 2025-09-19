@@ -1,7 +1,7 @@
 ---
 title: "It's not fun to manage."
 description: "I'm still managing all of Fictional Googology, and it's still a mess."
-date: "August 13th, 2025"
+date: "2025-09-13"
 ---
 
 so yeah i'm at that point where i'm back to being suicidal!!!!!

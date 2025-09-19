@@ -1,7 +1,8 @@
 ---
 title: "FG Expansion Spreadsheet"
+shortTitle: "FG-EXP 2.0.0-beta.3"
 version: "2.0.0-beta.3"
-date: "September 13th, 2025"
+date: "2025-09-13"
 ---
 This update expands on the Standard Breakology Index like usual, actually shortening the _short_ SBI charts and various other improvements such as adding The Eternal Tera Path as a valid path.
 
