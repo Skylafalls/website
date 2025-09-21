@@ -1,12 +1,12 @@
 <script setup lang="ts">
 const { data: blogPosts } = await useAsyncData(() => queryCollection("content")
   .select("title", "path", "id", "date")
-  .order("date", "ASC")
+  .order("date", "DESC")
   .all());
 
 const { data: changelogPosts } = await useAsyncData(() => queryCollection("changelogs")
   .select("shortTitle", "id", "path", "date")
-  .order("date", "ASC")
+  .order("date", "DESC")
   .all());
 </script>
 
