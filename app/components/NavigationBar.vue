@@ -26,7 +26,6 @@ const { data: changelogPosts } = await useAsyncData(() => queryCollection("chang
         </NuxtLink>
       </div>
     </div>
-    <NuxtLink href="/socials" class="navbar-item">Places I'm at</NuxtLink>
     <div class="dropdown">
       <NuxtLink href="/blogs" class="dropbtn" style="display: block;">
         Blog Posts
