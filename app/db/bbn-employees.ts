@@ -27,11 +27,11 @@ export const bbnEmployees = [
   "Pixelium",
   "Aperdinal",
   "TCC25",
-].sort();
+].toSorted();
 
 export const councilMembers = [
   "Math Goblin",
   "Gamma Mu D Mu",
   "Bored Thien",
   "Zerena",
-].sort();
+].toSorted();
