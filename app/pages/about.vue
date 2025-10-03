@@ -23,7 +23,7 @@
         <a href="https://twitter.com/thienbeingbored" target="_blank">Twitter / <i>""X""</i></a> (@thienbeingbored, <span style="color: darkgray;">inactive</span>)
       </li>
       <li>
-        <a href="https://bsky.app/" target="_blank">BlueSky</a> (@boredthien, <span style="color: darkgray;">inactive</span>)
+        <a href="https://bsky.app/profile/thienum.bsky.social" target="_blank">BlueSky</a> (@thienum.bsky.social, <span style="color: darkgray;">inactive</span>)
       </li>
     </ul>
     <h2>Things I do:</h2>
