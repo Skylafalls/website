@@ -15,6 +15,7 @@ export const documents: DocumentItem[] = [
       `The BBN-IS is used to objectively scale and rank many informal FG numbers such as Low-Endic Eternity
       and The Creator of all Fictional Googology Numbers.`,
       `For ranking rigorous numbers, see the BBN-RS.`,
+      `Please note this is currently mostly abandoned in favor of v2 of the FG Expansion Spreadsheet.`,
     ],
   },
   {
@@ -27,6 +28,7 @@ export const documents: DocumentItem[] = [
       `The BBN-RS is used to objectively scale and rank many rigorous and formal FG numbers based on the
       Pata-Metagoogology's abmetricism system called The Final Stretch.`,
       `For ranking rigorous numbers, see the BBN-IS.`,
+      `Please note this is currently mostly abandoned in favor of v2 of the FG Expansion Spreadsheet.`,
     ],
   },
   {
@@ -36,7 +38,7 @@ export const documents: DocumentItem[] = [
     arrayOfInfo: [
       `This is the Common FG Specification, a dual google sheet/doc combo that aims to standardize
       everything in Fictional Googology, from concepts to difficulties to debates.`,
-      "Currently it's a WIP with many concepts missing. Please suggest things if you can.",
+      "Currently it's a WIP with many concepts missing. Please suggest things and help out if you can.",
     ],
   },
   {
@@ -57,11 +59,11 @@ export const documents: DocumentItem[] = [
     docHeading: "BBN: FG Expansion Spreadsheet (v2)",
     documentLink: "https://docs.google.com/spreadsheets/d/1iYp6VyEhT5JeENpVRjqs7BT9yJd0l-8kHFX_ct7BZMI/edit",
     arrayOfInfo: [
-      `The third revision of the FG Expansion Spreadsheet is a rethought version of the original v1 and v2 variants
+      `The second revision of the FG Expansion Spreadsheet is a rethought version of the original v1 variants
       of the spreadsheets taking a, hopefuly better approach.`,
       `This aims to combine rigorous + informal scaling in a way that doesn't cause trouble, and also combines
       many of the aspects from the Additioal FG Expansion Charts and the Common FG Specification.`,
-      `Currently, it's in beta status (as of September 3rd, 2025) and needs more charts to be ported over.`,
+      `Currently, it's still in beta status (as of October 3rd, 2025) and the scaling and styling sections needs to be fixed.`,
     ],
   },
 ];

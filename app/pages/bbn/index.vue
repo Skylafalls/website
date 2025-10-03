@@ -4,6 +4,8 @@
     <p>
       <b>The BBN Foundation</b> is an organization of people who specializes in Fictional Googology.
       <br>
+      Currently our main focus is to work on standardizing some of the crazier aspects of Fictional Googology such as scaling and concepts.
+      <br>
       Here's the current list of members:
     </p>
     <ol>

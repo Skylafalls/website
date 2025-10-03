@@ -7,13 +7,16 @@
         <a href="https://www.youtube.com/@boredthien" target="_blank">YouTube</a> (@boredthien)
       </li>
       <li>
-        <a href="">Discord</a> (@thienum)
+        <a href="https://discord.com/@channels/me" target="_blank">Discord</a> (@thienum)
       </li>
       <li>
         <a href="https://fgyt.fandom.com/wiki/User:Bored_Thien" target="_blank">Fandom</a> (@Bored Thien)
       </li>
       <li>
         <a href="https://twitter.com/thienbeingbored" target="_blank">Twitter / <i>""X""</i></a> (@thienbeingbored, <span style="color: darkgray;">inactive</span>)
+      </li>
+      <li>
+        <a href="https://bsky.app/" target="_blank">BlueSky</a> (@boredthien, <span style="color: darkgray;">inactive</span>)
       </li>
     </ul>
   </div>

@@ -15,7 +15,17 @@ const { data: changelogPosts } = await useAsyncData(() => queryCollection("chang
     <NuxtLink href="/" class="navbar-item">Home</NuxtLink>
     <NuxtLink href="/docs" class="navbar-item">Documents</NuxtLink>
     <NuxtLink href="/about" class="navbar-item">About Me</NuxtLink>
-    <NuxtLink href="/bbn" class="navbar-item">About BBN</NuxtLink>
+    <div class="dropdown">
+      <NuxtLink href="/bbn" class="dropbtn" style="display: block;">
+        About BBN
+        <i class="fa fa-caret-down"/>
+      </NuxtLink>
+      <div class="dropdown-content">
+        <NuxtLink href="/bbn/member-roles">
+          BBN Roles
+        </NuxtLink>
+      </div>
+    </div>
     <NuxtLink href="/socials" class="navbar-item">Places I'm at</NuxtLink>
     <div class="dropdown">
       <NuxtLink href="/blogs" class="dropbtn" style="display: block;">
