@@ -6,6 +6,7 @@
       <br>
       Yeah as you can tell, I am <i>super</i> biromantic although I don't really have that much sexual feelings about them. And yeah, I'm polyamorous.
     </p>
+    <p>For pronouns-related information, you can go see <a href="https://en.pronouns.page/@thienum" target="_blank">https://en.pronouns.page/@thienum</a>.</p>
     <h2>List of social media accounts</h2>
     Here's a list of social media accounts I have, cause I'm at a few different places.
     <ul>
