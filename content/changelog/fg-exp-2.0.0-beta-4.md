@@ -12,7 +12,7 @@ Most of the new entries this update comes from smaller, more niche but still jus
 
 ## ⚠️ BREAKING CHANGES:
 * refactor(sbi)!: Reworked Numerical equivalents for Value Dunnulus+
-* refactor(sbi)!: Revamped Value x~Hierarchies to support Level~Order~Hierarchy edge case 
+* refactor(sbi)!: Revamped Value x\~Hierarchies to support Level\~Order\~Hierarchy edge case 
 * fix(charts)!: Removed and archived rigorous scaling charts
 * fix(entries)!: Removed rigorous milestone entries
 * fix(meta)!: Disabled commenting for non-editors
@@ -64,6 +64,6 @@ Most of the new entries this update comes from smaller, more niche but still jus
 * chore(sections): Edited description for BBN Level 17 to include its ending
 
 ## ⏪ Reverts:
-* _Revert:_ fix(meta)!: Disabled viewing for all non–editors
-* _Revert:_ fix(meta)!: Disabled commenting for non-editors due to a transphobic comment from Ben Zebra (right after i said i’m a transgirl too… ~ thien)
-* _Revert:_ chore(entries/informal): Removed THE XENO
+* _**Revert:**_ fix(meta)!: Disabled viewing for all non–editors
+* _**Revert:**_ fix(meta)!: Disabled commenting for non-editors due to a transphobic comment from Ben Zebra (right after i said i’m a transgirl too… ~ thien)
+* _**Revert:**_ chore(entries/informal): Removed THE XENO
