@@ -12,7 +12,7 @@ export const bbnEmployees = [
   "Akui No Chuushin",
   "Daniel R.",
   "Gamma Mu D Mu",
-  "Horizontia",
+  "Myria",
   "HyperNumbersAnimation",
   "Istamtae",
   "JoshuaDR.0809",
@@ -27,6 +27,13 @@ export const bbnEmployees = [
   "Pixelium",
   "Aperdinal",
   "TCC25",
+  "Elaborant500",
+  "Spelpotatis",
+  "Static",
+  "StrongLeon",
+  "DrBruntToast",
+  "Eriana",
+  "Landon25",
 ].toSorted();
 
 export const councilMembers = [
