@@ -2,7 +2,7 @@
   <div>
     <h1>About the foundation...</h1>
     <p>
-      <b>The BBN Foundation</b> is an organization of people who specializes in Fictional Googology.
+      <b>The BBN Foundation</b> is an organization of people who specializes in Fictional Googology. Our goal is to provide neceessary resources in order to de-mystify and remove the complications from working in FG.
       <br>
       Currently our main focus is to work on standardizing some of the crazier aspects of Fictional Googology such as scaling and concepts.
       <br>
