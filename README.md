@@ -1,3 +1,3 @@
 # website
 
-This is the source code for Thien's website.
+This is the source code for Sky's website.
