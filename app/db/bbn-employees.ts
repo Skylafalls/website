@@ -1,5 +1,5 @@
 export const bbnEmployees = [
-  "Bored Thien",
+  "Skylafalls",
   "Zerena",
   "NewFall",
   "Stella",
@@ -39,6 +39,6 @@ export const bbnEmployees = [
 export const councilMembers = [
   "Math Goblin",
   "Gamma Mu D Mu",
-  "Bored Thien",
+  "Skylafalls",
   "Zerena",
 ].toSorted();

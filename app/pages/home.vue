@@ -2,8 +2,8 @@
   <div>
     <h1>Hello, World!</h1>
     <p>This is
-      <a href="https://youtube.com/@boredthien" target="_blank">
-        Thien's
+      <a href="https://youtube.com/@skylafalls" target="_blank">
+        Sky's
       </a>
       website, built with very little
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
@@ -15,7 +15,7 @@
       </a>
       <br>
       The source code for the website can be found
-      <a href="https://github.com/Thien-Hubbing/website" target="_blank">
+      <a href="https://github.com/Skylafalls/website" target="_blank">
         here.
       </a>
     </p>

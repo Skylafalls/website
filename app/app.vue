@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Title>Thien's Website</Title>
+    <Title>Sky's Website</Title>
     <header>
       <NavigationBar />
     </header>

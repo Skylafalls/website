@@ -15,7 +15,7 @@ const fullTitle = computed(() => {
 useSeoMeta({
   title: fullTitle.value,
   description: post.value?.description,
-  author: "Bored Thien",
+  author: "Sky",
 });
 </script>
 
