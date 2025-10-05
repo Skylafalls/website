@@ -17,7 +17,7 @@
         <a href="https://discord.com/@channels/me" target="_blank">Discord</a> (@skylalights)
       </li>
       <li>
-        <a href="https://fgyt.fandom.com/wiki/User:Bored_Thien" target="_blank">Fandom</a> (@Bored Thien)
+        <a href="https://fgyt.fandom.com/wiki/User:Skylafalls" target="_blank">Fandom</a> (@Skylafalls)
       </li>
       <li>
         <a href="https://twitter.com/thienbeingbored" target="_blank">Twitter / <i>""X""</i></a> (@thienbeingbored, <span style="color: darkgray;">inactive</span>)
