@@ -3,11 +3,6 @@ const { data: blogPosts } = await useAsyncData(() => queryCollection("content")
   .select("title", "path", "id", "date")
   .order("date", "DESC")
   .all());
-
-const { data: changelogPosts } = await useAsyncData(() => queryCollection("changelogs")
-  .select("shortTitle", "id", "path", "date")
-  .order("date", "DESC")
-  .all());
 </script>
 
 <template>
@@ -16,17 +11,6 @@ const { data: changelogPosts } = await useAsyncData(() => queryCollection("chang
     <NuxtLink href="/docs" class="navbar-item">Documents</NuxtLink>
     <NuxtLink href="/about" class="navbar-item">About Me</NuxtLink>
     <div class="dropdown">
-      <NuxtLink href="/bbn" class="dropbtn" style="display: block;">
-        About BBN
-        <i class="fa fa-caret-down"/>
-      </NuxtLink>
-      <div class="dropdown-content">
-        <NuxtLink href="/bbn/member-roles">
-          BBN Roles
-        </NuxtLink>
-      </div>
-    </div>
-    <div class="dropdown">
       <NuxtLink href="/blogs" class="dropbtn" style="display: block;">
         Blog Posts
         <i class="fa fa-caret-down"/>
@@ -34,17 +18,6 @@ const { data: changelogPosts } = await useAsyncData(() => queryCollection("chang
       <div class="dropdown-content">
         <NuxtLink v-for="post in blogPosts" :key="post.id" :href="post.path">
           {{ post.title }}
-        </NuxtLink>
-      </div>
-    </div>
-    <div class="dropdown">
-      <NuxtLink href="/changelog" class="dropbtn" style="display: block;">
-        Changelog
-        <i class="fa fa-caret-down" />
-      </NuxtLink>
-      <div class="dropdown-content">
-        <NuxtLink v-for="post in changelogPosts" :key="post.id" :href="post.path">
-          {{ post.shortTitle }}
         </NuxtLink>
       </div>
     </div>

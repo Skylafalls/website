@@ -17,7 +17,7 @@
         <a href="https://discord.com/@channels/me" target="_blank">Discord</a> (@skylalights)
       </li>
       <li>
-        <a href="https://fgyt.fandom.com/wiki/User:Skylafalls" target="_blank">Fandom</a> (@Skylafalls)
+        <a href="https://fictional-googology.fandom.com/wiki/User:Skylafalls" target="_blank">Fandom</a> (@Skylafalls)
       </li>
       <li>
         <a href="https://twitter.com/thienbeingbored" target="_blank">Twitter / <i>""X""</i></a> (@thienbeingbored, <span style="color: darkgray;">inactive</span>)
@@ -31,9 +31,6 @@
       Some of the things I like are:
     </p>
     <ul>
-      <li>
-        Fictional Googology, the study of numbers beyond Absolute Infinity. I have an entire <NuxtLink to="/bbn">organization</NuxtLink> dedicated to this.
-      </li>
       <li>
         Designing, especially if I can add a lot of details. And some stories too.
       </li>
